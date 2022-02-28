@@ -56,11 +56,25 @@
         - git commit --amend
         - git commit --amend -m "새로운 커밋 메세지"
     - 커밋 파일 수정
-        - "# Runtime data": 파일 마지막 줄에 해당 코멘트 추가
-        - git add "파일명"
+        - "# Runtime data": .gitignore 파일 마지막 줄에 해당 코멘트 추가
+        - git add .gitignore
         - git commit --amend --no-edit
     - 커밋 저자 수정
         - git commit --amend --author "username <email>"
 - 커밋 푸시
     - git push origin master
-    
+        - https://doozi316.github.io/errorlog/2019/09/30/error1/
+        - git push -u origin +master(강제로 푸시)
+    - 새로운 서버로 푸시
+        - 원격 저장소 추가 생성
+        - git remote add origin2
+        - cat ./git/config
+        - git push origin2 master
+
+
+## 원격 저장소 복제
+
+- git clone [원격 저장소 주소] [지역 저장소 이름]
+
+
+
