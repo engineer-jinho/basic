@@ -40,3 +40,27 @@
 - 깃 파일 상태 확인
     - untracked(작업 디렉터리), tracked(스테이징 ~ 지역 저장소)
     - untracked: 새로 생성되거나 "git add" 이전 단계
+
+
+## Commit
+- 커밋 생성
+    - git commit
+    - 커밋 문구
+
+- 커밋 이해하기
+    - git log
+    - 다양한 옵션 존재: 필요한 옵션 찾기...but 그닥 사용할 일이 없음
+
+- 커밋 수정하기
+    - 커밋 메세지 수정
+        - git commit --amend
+        - git commit --amend -m "새로운 커밋 메세지"
+    - 커밋 파일 수정
+        - "# Runtime data": 파일 마지막 줄에 해당 코멘트 추가
+        - git add "파일명"
+        - git commit --amend --no-edit
+    - 커밋 저자 수정
+        - git commit --amend --author "username <email>"
+- 커밋 푸시
+    - git push origin master
+    
