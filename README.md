@@ -77,9 +77,9 @@
 - git clone [원격 저장소 주소] [지역 저장소 이름]
 
 
-# MKdocs
+## MKdocs
     
-## 설치: Python, pip install mkdcos
+### 설치: Python, pip install mkdcos
 
 ## 작업폴더 생성: mkdcos new "폴더"
 
