@@ -79,24 +79,32 @@
 
 ## MKdocs
     
-### 설치: Python, pip install mkdcos
+### 설치
+    Python, pip install mkdcos
 
-## 작업폴더 생성: mkdcos new "폴더"
 
-## 폴더 구조 정리
+### 작업폴더 생성
+    mkdcos new "폴더"
+
+
+### 폴더 구조 정리
   - md 파일 및 폴더 생성
   - img 및 video를 따로 관리하기도 함
   - mkdcos.yml에서 pages 설정
 
-## 테마 변경
+
+### 테마 변경
 theme: readthedocs
 
-## Build
+
+### Build
 mkdocs build
 
-## Admotion
 
-## 배포
+### Admotion
+
+
+### 배포
 git init
 git config user.name "사용자 이름"
 git config user.email "이메일 주소"
